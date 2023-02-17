@@ -10,6 +10,8 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
+        task9();
     }
 
     public static void task1() {
@@ -81,18 +83,14 @@ public class Main {
             System.out.println("Самое большое число "+ three);}
 
     }
-}
 
 
 
-public class Main {
-    public static void main(String[] args) {
-        task1();
-        task2();
 
 
-    }
-    public static void task1(){
+
+
+    public static void task8(){
         System.out.println("Задача 1");
         char clientOs = 1;
         if (clientOs == 0){
@@ -101,7 +99,7 @@ public class Main {
             System.out.println("установите версию приложения для Android по ссылке");}
 
     }
-    public static void task2(){
+    public static void task9(){
         System.out.println("Задача 2");
 
         int clientDeviseYear = 2011;
@@ -109,7 +107,10 @@ public class Main {
             System.out.println("Установите облегченную версию приложения для IOS по ссылке");}
         else {
             System.out.println("установите облегченную версию приложения для Android по ссылке");
+
         }
+        System.out.println(" Привет");
+
 
     }
     
